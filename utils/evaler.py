@@ -99,7 +99,7 @@ class Evaler:
         for model_name in models:
             model_path = os.path.join(main_path, model_name)
             checkpoint = torch.load(model_path)
-            model = GGENet_T() if model_name == "GGENet-T.pth" else GGENet_S()
+            model = GGENet_T() if model_name == "ggenet_t.pth" else GGENet_S()
             if "model_state_dict" in checkpoint:
                 model.load_state_dict(checkpoint["model_state_dict"])
             else:
