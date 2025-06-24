@@ -2,7 +2,8 @@
 
 ## Overview
 
-The GGENet project aims to classify fruits as either fresh or rotten using a novel deep learning architecture. This repository provides scripts and models to train, evaluate, and utilize the GGENet for fruit classification tasks.
+The GGENet project aims to classify fruits as either fresh or rotten using a novel deep learning architecture. This repository provides scripts and models to train, evaluate, and utilize the GGENet for fruit classification tasks. The source code is also available on Zenodo:
+🔗 https://doi.org/10.5281/zenodo.15727051
 
 ## Installation
 
@@ -106,6 +107,8 @@ python train_knowledge_distillation.py --fold-dir ./fold_dataset --teacher-model
 The training, testing and validating data can be downloaded using the following URL: [Fold Dataset](https://drive.google.com/file/d/1fhTnxQBJ_JsL3Vs8lLnmL0_D2AYDt4ZA/view?usp=sharing)
 
 The checkpoints can be downloaded using the following URL: [Checkpoints](https://drive.google.com/file/d/1YsOcgtlxveUQDI4npINVZdfgtwQNXgOK/view?usp=sharing)
+
+The fold dataset and checkpoints are also available on Zenodo :  https://doi.org/10.5281/zenodo.15719207
 
 ```plaintext
 ├── ckpt/
